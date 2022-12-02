@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,51 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.board-game {
+  display: grid;
+  width: 80vw; 
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  margin: 6px; 
+  border-radius: 6px;
+  border: solid 2px black;
+  width: 60px;
+  height: 60px;
+}
+
+.red {
+  background-color: red;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.lime {
+  background-color: lime;
+}
+
+.aqua {
+  background-color: aqua;
+}
+
+
+button {
+  margin: 20px
 }
